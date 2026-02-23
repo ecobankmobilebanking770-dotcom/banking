@@ -1,0 +1,74 @@
+/* Comprehensive Professional Banking Portal Design */
+
+/* Color Scheme */
+:root {
+    --primary-color: #0033cc; /* Blue */
+    --secondary-color: #ffcc00; /* Gold */
+}
+
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Responsive Layout */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+/* Form Styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Accessibility Features */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: var(--secondary-color);
+    outline: 2px solid var(--secondary-color);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
