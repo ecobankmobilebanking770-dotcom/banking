@@ -152,7 +152,7 @@ The website is fully responsive with breakpoints for:
 
 ## Security Notes
 
-⚠��� **Important**: This is a frontend application. For production use:
+⚠️ **Important**: This is a frontend application. For production use:
 
 1. Implement backend API for form submission  
 2. Use HTTPS for all connections  
